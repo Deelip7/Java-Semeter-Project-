@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.4">
+   <children>
+      <Pane prefHeight="730.0" prefWidth="969.0">
+         <children>
+            <Button fx:id="refresh" layoutX="710.0" layoutY="37.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="137.0" text="Refresh" />
+            <Button fx:id="solution" layoutX="71.0" layoutY="36.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="115.0" text="Find A Solution" />
+            <TextField fx:id="solutionAns" layoutX="389.0" layoutY="42.0" />
+            <Label fx:id="label" layoutX="54.0" layoutY="615.0" prefHeight="17.0" prefWidth="147.0" text="Enter an expression" />
+            <TextField fx:id="solutionUser" layoutX="395.0" layoutY="601.0" />
+            <Button fx:id="verify" layoutX="689.0" layoutY="597.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="143.0" text="Verify" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
